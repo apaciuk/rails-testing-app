@@ -19,5 +19,9 @@ RSpec.describe Palindrome, type: :model do
         it "returns true if there is punctuation and is identical when read backwards" do 
             expect(palindrome.palindrome("Go hang a salami, I'm a lasagna hog.")).to eq(true)
         end 
+
+        it "returns true if there is a mix of numbers and slashes and is identical when read backwards" do
+            expect(palindrome.palindrome("02/02/2020")).to eq(true) 
+        end
     end
 end 
