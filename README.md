@@ -6,7 +6,7 @@ Testing/test-bed app for various ruby procedures, views, classes and methods wit
 3.1.2
 
 * System dependencies
-PostgreSQL
+PostgreSQL, Node/Yarn
 
 * Configuration
 
