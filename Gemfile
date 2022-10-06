@@ -80,6 +80,7 @@ group :development, :test do
   gem "brakeman", require: false
   gem "bundler-audit"
   gem "rspec-rails"
+  gem "factory_bot_rails"
   gem "faker"
   gem "vcr", "~> 5.1"
   gem "foreman", "~> 0.87.1"
